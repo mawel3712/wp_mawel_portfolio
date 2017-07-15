@@ -11,7 +11,7 @@
         	<h1><?php the_title( ); ?></h1>
           		<p><?php the_content( ); ?></p>
         <?php endwhile; else: ?>
-     		<p><?php _e('Sorry, No post match your criteria.' ); ?></p>    
+     		<p><?php _e('Sorry, No page found.' ); ?></p>    
      	<?php endif; ?>
         </div>
       </div>
